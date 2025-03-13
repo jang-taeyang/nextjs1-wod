@@ -1,0 +1,87 @@
+body {
+    background-color: #212529;
+}
+
+a.nav-link {
+    color: #A48B4D;
+}
+
+.centerImage {
+    height: 700px;
+    background-image: url("/wod-ko-hana-background.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+}
+
+.book-now-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.book-now-button {
+  width: 150px;
+  color: #000; /* Black text */
+  font-size: 16px;
+  padding: 1px 1px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 0 10px rgba(223, 193, 103, 0.5); /* Initial subtle glow */
+}
+
+.book-now-button:hover {
+  background-color: #c2a45d; /* Darker gold on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(223, 193, 103, 0.8); /* Stronger glow on hover */
+}
+
+.book-now-icon {
+  font-size: 18px;
+}
+
+/* Navbar title glow effect */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #A48B4D;
+  transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.1s ease-in-out;
+  box-shadow: 0 0 10px rgba(223, 193, 103, 0.5); /* Initial subtle glow */
+}
+
+.navbar-brand:hover {
+  color: #DFC167;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(223, 193, 103, 0.8); /* Stronger glow on hover */
+}
+
+.footer {
+    color: #A48B4D;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+
+.rightCol a.nav-link {
+    margin-left: auto;
+    margin-right: 5px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.rightCol a.nav-link svg {
+    color: white;
+    font-size: 12px;
+}
